@@ -19,6 +19,14 @@ public class Task {
         this.completed = completed;
     }
 
+    public String getTitle() {
+        return title;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
     @Override
     public String toString() {
         return "Tache : " + title + " - " + description + " | Statut : " + (completed ? "Terminee" : "Non terminee");
